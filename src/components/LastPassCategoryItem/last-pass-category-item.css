@@ -1,0 +1,97 @@
+.last-pass-category__title {
+  display: flex;
+  padding: 10px;
+}
+
+.last-pass-category__title__icon {
+  width: 32px;
+  height: 30px;
+  background-size: cover;
+  background-color: white;
+}
+
+.last-pass-category__title__name {
+  display: flex;
+  color: #0f0faceb;
+  width:200px;
+}
+
+.last-pass-category__link {
+  display: flex;
+  color: #00007deb;
+  font-size: 14px;
+  float: right;
+  width: 150px;
+}
+
+.last-pass-card--hover {
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  width: 250px;
+  margin: 8px 10px;
+}
+
+.last-pass-card--hover .button-class {
+  bottom: 0;
+  color: #fff;
+  display: table;
+  left: 0;
+  opacity: 0;
+  padding: 10px 0;
+  position: absolute;
+  transition: all 0.2s ease-in-out 0s;
+  width: 640px;
+}
+
+.last-pass-card--hover:hover .button-class {
+  opacity: 1;
+  transition: all 1s ease;
+}
+
+.button-class-launch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  background-size: cover;
+  width: 250px;
+  height: 50px;
+  margin: 0px 0px 10px 0px;
+  outline: none;
+}
+
+.last-pass-button--launch {
+  width: 100px;
+  height: 30px;
+  background-color: #ac9f9fdb;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: none;
+}
+
+.last-pass-button--edit {
+  background-image: url("../../images/edit-icon.png");
+  background-color: white;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  margin: 0px 0px 0px 10px;
+  outline: none;
+}
+
+.last-pass-button--delete {
+  margin-left: 10px;
+  background-image: url("../../images/delete-icon.png");
+  background-color: white;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  outline: none;
+}
+
+h1,span{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

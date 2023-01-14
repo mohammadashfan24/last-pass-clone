@@ -1,0 +1,38 @@
+.auth-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  padding-top: 20px;
+}
+
+.auth-input__label {
+  position: absolute;
+  color: #000;
+  transition: all 0.3s linear;
+  font-size: 12px;
+}
+
+.auth-input__control {
+  border: none;
+  border-bottom: 1px solid #ff9800;
+  outline: none;
+  font-size: 14px;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.auth-input__control:focus + .auth-input__label {
+  color: #1dabeb;
+}
+
+.auth-input__control:focus + .auth-input__label,
+.auth-input__control:valid + .auth-input__label {
+  transform: translate3d(0, -16px, 0);
+}
+
+.auth-input__error {
+  color: #ff9800;
+  font-size: 12px;
+}

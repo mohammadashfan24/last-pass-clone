@@ -1,0 +1,81 @@
+.last-pass-add-address {
+  border: 1px solid black;
+  width: 750px;
+  height: 500px;
+  background-color:var(--background-color);
+  border: none;
+}
+
+.last-pass-add-address-container {
+  display: flex;
+  height: 420px;
+  border: 1px solid #868888;
+}
+
+.last-pass-add-address__left-side {
+  background-color:var(--background-color);
+  padding: 10px;
+  border-right: 1px solid #86888a;
+}
+.last-pass-add-address__right-side {
+  padding: 10px;
+  background-color: #fff;
+  width: 100%;
+}
+table,
+td {
+  border: 1px solid #c4bebe;
+  border-collapse: collapse;
+  width: 500px;
+  font-weight: 600;
+}
+td {
+  text-align: right;
+  padding: 8px 10px;
+}
+
+.last-pass-button-holder {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.last-pass-button-holder * {
+  margin:15px 10px 0px 0px;
+}
+
+
+.last-pass-button--exit {
+  box-shadow: none;
+  height: 18px;
+  width: 18px;
+}
+
+.last-pass-add-address__header {
+  background-color: #db1010;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  padding: 0px 38px 0px 10px;
+}
+
+.last-pass-add-address-header__buttons {
+  display: flex;
+  width: 50px;
+  padding-left: 30px;
+}
+
+
+.last-pass-button--exit {
+  width: 40px;
+  box-shadow: none;
+  background-color: #db1010;
+  outline: none;
+}
+
+.last-pass-input--full-width-grey {
+  display: block;
+  width: 100%;
+}

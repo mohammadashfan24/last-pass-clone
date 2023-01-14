@@ -1,0 +1,57 @@
+.last-pass-accordion {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.last-pass-accordion__head {
+  display: flex;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  height: 50px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.last-pass-accordion__label {
+  font-weight: 400;
+  font-size: 14px;
+  padding-right: 10px;
+  min-width: 100px;
+  text-align: left;
+}
+
+.last-pass-accordion__arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid gray;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.last-pass-accordion__arrow--up {
+  transform: rotate(-90deg);
+}
+
+.last-pass-accordion__body {
+  max-height: 0px;
+  overflow-y: scroll;
+  transition: max-height 0.3s linear;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.last-pass-accordion__body::-webkit-scrollbar {
+  display: none;
+}
+
+
+.last-pass-accordion__body--open {
+  min-height: 150px;
+}

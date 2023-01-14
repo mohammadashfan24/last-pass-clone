@@ -1,0 +1,48 @@
+.last-pass-home {
+  display: flex;
+  flex-direction: row;
+}
+.last-pass-home__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.last-pass-home__container--content {
+  padding: 20px 30px 0px 30px;
+}
+
+.last-pass-home__container--content__sort-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+.last-pass-home__add-button {
+  position: fixed;
+  bottom: 100px;
+  left: 90%;
+}
+
+.passwords {
+  font-weight: bold;
+}
+.last-pass-home__uncategorized {
+  margin-top: 20px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+.last-pass-home__row {
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.last-pass-card--home {
+  display: flex;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

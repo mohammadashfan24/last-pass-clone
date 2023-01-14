@@ -1,0 +1,133 @@
+{
+  "info": {
+    "_postman_id": "d802cfc2-f4dd-456f-a11e-ef2e46c53e58",
+    "name": "last-pass-clone",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "register",
+      "_postman_id": "c009c7df-88e5-4c83-abb3-ea7dd9921800",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "type": "text",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\"firstName\":\"clarence\",\n\"lastName\":\"merchant\",\n\"email\":\"clarencemerchant1995@gmail.com\",\n\"password\":\"password123*\"\n}"
+        },
+        "url": "http://localhost:3000/api/v1/register"
+      },
+      "response": []
+    },
+    {
+      "name": "getUsers",
+      "_postman_id": "f1bd564f-373b-4b64-8536-791ea191ba2b",
+      "protocolProfileBehavior": { "disableBodyPruning": true },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "token",
+            "value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsYXJlbmNlbWVyY2hhbnQxOTk1QGdtYWlsLmNvbSIsInBhc3N3b3JkIjoicGFzc3dvcmQxMjMqIiwiaWF0IjoxNTkzMDI0MDkxLCJleHAiOjE1OTMxMTA0OTF9.3TNIa-ZZqBCZ6ZEBxl0tEaTgILXnct1LfYVTevpvxS0",
+            "type": "text"
+          }
+        ],
+        "body": { "mode": "raw", "raw": "" },
+        "url": "http://localhost:3000/api/v1/users"
+      },
+      "response": []
+    },
+    {
+      "name": "save pasword",
+      "_postman_id": "4d6ecf6e-8eac-46e8-82a5-99f9061b5c95",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "type": "text",
+            "value": "application/json"
+          },
+          { "key": "token", "value": "", "type": "text" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"type\":\"PASSWORD\",\n\t\"data\":{\n\t\t\"userId\":\"5eef2d514f546e7207cebaae\",\n\t\t\"site\":\"https://www.twitter.com\",\n\t\t\"name\":\"twitter\",\n\t\t\"userName\":\"athish@gmail.com\",\n\t\t\"password\":\"password123*\",\n\t\t\"folder\":\"socialnetwork\",\n\t\t\"additonalInfo\":\"\"\n\t}\n}"
+        },
+        "url": "http://localhost:3000/api/v1/save"
+      },
+      "response": []
+    },
+    {
+      "name": "save note",
+      "_postman_id": "2cf75803-29e5-4fd3-b458-92cda6a0bb1c",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"type\":\"NOTE\",\n\t\"data\":{\n\t\t\"userId\":\"5eedb63f00287e62f90b24b3\",\n\t\t\"name\":\"frontend integration\",\n\t\t\"folder\":\"development\",\n\t\t\"note\":\"help frontend guys with integration\"\n\t}\n}"
+        },
+        "url": "http://localhost:3000/api/v1/save"
+      },
+      "response": []
+    },
+    {
+      "name": "save address",
+      "_postman_id": "429bcea1-a952-4dcb-a871-dbb7fd21d8cd",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"type\":\"ADDRESS\",\n\t\"data\":{\n\t\t\"userId\":\"5eedb63f00287e62f90b24b3\",\n\t\t\"name\":\"Codecraft\",\n\t\t\"folder\":\"company\",\n\t\t\"address\":\"classic arcade\",\n\t\t\"city\":\"angalore\",\n\t\t\"country\":\"India\"\n\t}\n}"
+        },
+        "url": "http://localhost:3000/api/v1/save"
+      },
+      "response": []
+    },
+    {
+      "name": "login",
+      "_postman_id": "d1f97b67-2ff7-47ad-9b1a-2665cf450a7f",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"email\":\"clarencemerchant1995@gmail.com\",\n\t\"password\":\"password123*\"\n}"
+        },
+        "url": "http://localhost:3000/api/v1/login"
+      },
+      "response": []
+    }
+  ]
+}

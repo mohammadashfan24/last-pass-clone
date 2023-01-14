@@ -1,0 +1,27 @@
+.last-pass-input {
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #c4bebe;
+  outline: none;
+  font-size: 18px;
+}
+
+.last-pass-input--full-width {
+  display: block;
+  width: 100%;
+}
+
+.last-pass-input--search::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+
+.last-pass-input--search{
+  width: 450px;
+  border: none;
+  color: rgba(255, 255, 255, 0.973);
+  background-color: #da8a8a;
+  height: 42px;
+  border: none;
+}

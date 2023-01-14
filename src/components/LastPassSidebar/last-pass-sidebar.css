@@ -1,0 +1,39 @@
+.last-pass-sidebar{
+    width:250px;
+    min-height: 100vh;
+    max-height: auto;
+    background-color: #3c4a54;
+    padding: 60px 0px;
+    font-size: 18px;
+    color: #88959E;
+    font-size: 18px;
+    cursor: pointer;
+ }
+.last-pass-icon{
+    width:25px;
+    height:25px;
+    background-size: cover;
+    margin-right: 12px;
+}
+.last-pass-sidebar-elements{
+    display: flex;
+    width:100%;
+    align-items: center;
+    padding:0px 20px;
+    height:40px;
+    font-size: 16px;
+}
+.last-pass-icon--PASSWORD{
+    background-image: url('../../images/icons8-lock-32.png');
+    }
+    .last-pass-icon--NOTE{
+        background-image: url('../../images/icons8-note-32.png');
+    }
+    .last-pass-icon--ADDRESS{
+        background-image: url('../../images/icons8-address-book-32.png');
+    }
+
+.last-pass-sidebar-elements--active{
+    background-color : #22303a;
+    color: #fff;
+}

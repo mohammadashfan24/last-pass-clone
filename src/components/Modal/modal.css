@@ -1,0 +1,68 @@
+.lastpass-modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.lastpass-modals {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastpass-modal {
+  display: flex;
+  width: 90%;
+  max-height: 100vh;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+}
+
+.lastpass-modal__body {
+  display: flex;
+  flex-direction: column;
+  min-width: 650px;
+  min-height: 500px;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0px 0px 3px 0px #fff;
+}
+
+.lastpass-modal__body-head {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background:var(--header-color);
+  color: #fff;
+}
+
+.lastpass-modal__body-head-close {
+  font-size: 20px;
+  height: 20px;
+  width: 20px;
+  border: none;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.lastpass-modal__body-head-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.lastpass-modal__body-content {
+}

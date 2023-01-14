@@ -1,0 +1,10 @@
+.last-pass-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  
+  min-width: 200px;
+  min-height: 90px;
+  box-shadow: 0px 2px 2px 2px #dfd6d6;
+}

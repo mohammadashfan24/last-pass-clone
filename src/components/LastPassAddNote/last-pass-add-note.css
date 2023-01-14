@@ -1,0 +1,27 @@
+.last-pass-add-note {
+  display: flex;
+  padding: 10px;
+}
+
+.last-pass-add-note__left-side {
+  background-color:var(--background-color);
+  padding: 10px;
+  height: 450px;
+}
+.last-pass-add-note__right-side {
+  margin-left: 10px;
+}
+
+.last-pass-add-note__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.last-pass-text-area--note {
+  height: 450px;
+  margin-bottom: 10px;
+}
+
+.last-pass-add-note__buttons .last-pass-button--white {
+  margin-right: 10px;
+}

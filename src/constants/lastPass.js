@@ -1,0 +1,1 @@
+export const sideBarOptions = [{ name: 'Passwords', id: 'PASSWORD' }, { name: 'Notes', id: 'NOTE' }, { name: 'Addresses', id: 'ADDRESS' }];

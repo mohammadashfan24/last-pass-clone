@@ -1,0 +1,14 @@
+.last-pass-select {
+  border: none;
+  margin-left: 5px;
+  font-size: 15px;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+.last-pass-select-user
+{
+  color: white;
+  background-color:var(--header-color);
+}
